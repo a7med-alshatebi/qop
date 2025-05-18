@@ -157,4 +157,10 @@ const backendUrl = 'http://localhost:3000/instagram';
         } catch (error) {
             console.error('Error:', error);
             loading.classList.add('hidden');
-            swiperWrapper.innerHTML
+            swiperWrapper.innerHTML = '';
+            error.querySelector('p').textContent = error.message;
+            error.classList.remove('hidden');
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', fetchInstagramPosts);
