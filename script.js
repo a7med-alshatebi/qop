@@ -1,4 +1,4 @@
-/*const backendUrl = 'https://a7med-alshatebi.tech/instagram'; // or http://localhost:3000/instagram for local
+ /*const backendUrl = 'https://a7med-alshatebi.tech/instagram'; // or http://localhost:3000/instagram for local
 
 async function fetchInstagramPosts() {
     const postsContainer = document.getElementById('posts');
@@ -81,7 +81,7 @@ const backendUrl = 'http://localhost:3000/instagram';
 
 */
 
-const backendUrl = 'https://a7med-alshatebi.tech/instagram';
+const backendUrl = 'https://ahmed.a7med-alshatebi.tech';
 let swiper = null; // This should be the only swiper declaration
 
 async function fetchInstagramPosts() {
