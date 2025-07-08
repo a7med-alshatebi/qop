@@ -81,7 +81,7 @@ const backendUrl = 'http://localhost:3000/instagram';
 
 */
 
-const backendUrl = 'https://qop-tawny.vercel.app//instagram';
+const backendUrl = 'http://localhost:3000/instagram';
 let swiper = null; // This should be the only swiper declaration
 
 async function fetchInstagramPosts() {
