@@ -169,3 +169,9 @@ async function fetchInstagramPosts() {
 }
 
 document.addEventListener('DOMContentLoaded', fetchInstagramPosts);
+
+
+fetch('api/instagram')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
